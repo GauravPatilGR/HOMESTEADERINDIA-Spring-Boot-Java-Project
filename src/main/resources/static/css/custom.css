@@ -1,0 +1,304 @@
+h2, h3, h4, h5, h6 {
+    margin: 5px 0 0;
+}
+
+h2 {
+    color: #124874;
+    text-align: left;
+}
+
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #FFF;
+    background-attachment: scroll;
+    background-image: url(../img/layout/background.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: Lato,sans-serif;
+}
+
+
+injected stylesheet
+:host, :root {
+    --rem: 16;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.subprograms .title {
+    background: #2f4858;
+    color: #FFF;
+    font-size: 1.4em;
+}
+
+@media only screen and (max-width: 1340px)
+.button, h1.title, h3.title {
+    text-align: center;
+}
+
+h3.title {
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 5px 0;
+    background: #eee;
+    color: #333;
+}
+
+h1.title, h3.title, nav.top>ul {
+    text-transform: uppercase;
+}
+
+h1.title, h3.title {
+    text-indent: 10px;
+    text-transform: uppercase;
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 5px 0 0;
+}
+
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+element.style {
+}
+@media only screen and (max-width: 1340px)
+.subprograms img {
+    max-width: 100%;
+}
+
+img.left {
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+img {
+    border: 0;
+}
+
+img[Attributes Style] {
+    width: 300px;
+    aspect-ratio: auto 300 / 123;
+    height: 123px;
+}
+
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+p {
+    margin: 5px 0 20px;
+}
+
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.program-country-title {
+    margin: 0 5px 0 0;
+    color: #555;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+.program-country-flags {
+    text-align: right;
+    display: block;
+    margin-right: 5px;
+}
+
+.program-country-flags img.flag {
+    max-width: 70px;
+    height: auto;
+}
+
+@media only screen and (max-width: 1340px)
+.subprograms img {
+    max-width: 100%;
+}
+
+img {
+    border: 0;
+}
+
+img[Attributes Style] {
+    width: 200px;
+    aspect-ratio: auto 200 / 131;
+    height: 131px;
+}
+
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.program-country-flags {
+    text-align: right;
+    display: block;
+    margin-right: 5px;
+}
+
+
+.subprograms-wrapper {
+     background: linear-gradient(#f4a261,#5fad56);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
+    margin: 20px 20px 0;
+    
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+@media only screen and (max-width: 1340px)
+.button {
+    width: 99%;
+    padding: 12px 0;
+    margin: 10px auto 0;
+}
+
+@media only screen and (max-width: 1340px)
+.button, h1.title, h3.title {
+    text-align: center;
+}
+
+
+.button {
+    width: auto;
+    font-size: 1em;
+    font-weight: 400;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 9px 18px;
+    background-color: #ff9e00;
+    color: #fff;
+}
+
+
+.right {
+    float: right;
+    display: block;
+    margin: 10px;
+}
+
+
+.button, a, abbr[title], nav.top a {
+    text-decoration: none;
+}
+
+
+a {
+    color: #1b9bff;
+}
+
+
+a {
+    background-color: transparent;
+}
+
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.subprograms {
+    margin: 35px;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+
+
+
+@media only screen and (max-width: 463px)
+#content-wrapper {
+    width: 100%;
+    max-width: 100%;
+}
+@media only screen and (max-width: 620px)
+#content-wrapper {
+    width: 100%;
+    max-width: 100%;
+}
+@media only screen and (max-width: 800px)
+#content-wrapper {
+    width: 100%;
+    max-width: 600px;
+}
+@media only screen and (max-width: 1068px)
+#content-wrapper {
+    width: 100%;
+    max-width: 800px;
+}
+@media only screen and (max-width: 1340px)
+#content-wrapper {
+    overflow: visible;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 1070px;
+    min-height: 400px;
+    width: 100%;
+}
+@media only screen and (max-width: 1340px)
+#content-wrapper, #content-wrapper-full {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+}
+#content-wrapper {
+    overflow: auto;
+    
+    max-width: 1070px;
+    min-height: 500px;
+    width: 100%;
+}
+user agent stylesheet
+div {
+    display: block;
+}

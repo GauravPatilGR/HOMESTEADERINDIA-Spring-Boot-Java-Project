@@ -1,0 +1,267 @@
+h2, h3, h4, h5, h6 {
+    margin: 5px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #FFF;
+    background-attachment: scroll;
+    background-image: url(../img/layout/background.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: Lato,sans-serif;
+}
+
+
+injected stylesheet
+:host, :root {
+    --rem: 16;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.subprograms .title {
+    background: #2f4858;
+    color: #FFF;
+    font-size: 1.4em;
+}
+
+@media only screen and (max-width: 1340px)
+.button, h1.title, h3.title {
+    text-align: center;
+}
+
+h3.title {
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 5px 0;
+    background: #eee;
+    color: black
+}
+
+h1.title, h3.title, nav.top>ul {
+    
+}
+
+h1.title, h3.title {
+    text-indent: 10px;
+    
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 5px 0 0;
+}
+
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+
+
+
+li{
+    color: #000;
+}
+
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+
+
+.subprograms-wrapper {
+     background: linear-gradient(#f4a261,#94d2bd);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
+    margin: 20px 20px 0;
+    
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+
+
+
+.button {
+    width: auto;
+    font-size: 1em;
+    font-weight: 400;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 9px 18px;
+    background-color: #ff9e00;
+    color: #fff;
+}
+
+
+.right {
+    float: right;
+    display: block;
+    margin: 10px;
+}
+
+
+.button, a, abbr[title], nav.top a {
+    text-decoration: none;
+}
+
+
+a {
+    color: #1b9bff;
+}
+
+
+a {
+    background-color: transparent;
+}
+
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.subprograms {
+    margin: 35px;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+
+
+
+
+
+#content-wrapper {
+    overflow: auto;
+    
+    max-width: 2000px;
+    min-height: 500px;
+    width: 100%;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+
+/* Form css */
+
+.form-popup {
+    display: none;
+     position: fixed;
+    bottom: 0;
+    right: 15px;
+   
+     z-index: 9;
+    }
+
+.card {
+    padding: 40px 40px;
+    width: 400px;
+    margin-top: 100px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+.blue-text {
+    color: #00BCD4;
+}
+
+.form-control-label {
+    margin-bottom: 0;
+}
+
+input,
+textarea,
+select,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 15px !important;
+    font-weight: 300;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400;
+}
+
+.btn-block {
+   
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.btn-block:hover {
+    color: #fff !important;
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+/* form css end */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@300&display=swap');
