@@ -13,4 +13,6 @@ public interface RepoEnqiryEntity extends JpaRepository<enquiry_Entity, Integer>
  
 	//Enqiry Report
 	List<enquiry_Entity> findByDateoutBetween(java.util.Date startdate, java.util.Date enddate);
+	
+	List<enquiry_Entity> findByFemailLike(String email);
 }

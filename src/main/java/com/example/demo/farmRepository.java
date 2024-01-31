@@ -19,11 +19,14 @@ public interface farmRepository  extends JpaRepository<farmerEntity, Integer>
 	//Avoid Dublicate Email
 	farmerEntity findByEmail(String email);
 	
+	
 	//Show Profile
 	List<farmerEntity> findByEmailLike(String email);
 	
+	
+	
 
-	//save Farmer Training
+	//save Farmer Trainin
 	void save(Training_Farmer t1);
 	
 	//save Student Training

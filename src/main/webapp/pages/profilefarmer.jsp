@@ -1,13 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-      <%@ include file="headerfile.jsp" %>
+    
  <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%> 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Profile</title>
+<title>User Profile Dashboard</title>
+ <%@ include file="headerfile.jsp" %>
+<link href="css/agrofarm.css" rel="stylesheet">
 </head>
 <body >
 
@@ -23,8 +25,10 @@
         <div class="col-md-5 border-right" style="background-image: linear-gradient(to left, #f18701,#73bfdc);color:black; border-radius:18px;">
             <div class="p-3 py-5">
                 <div class="d-flex justify-content-between align-items-center mb-3">
-                    <h4 class="text-right">Profile Settings</h4>
+                    <h4 class="text-right">User Profile Dashboard &nbsp;<i class="fa-brands fa-ubuntu" style="font-size:30px;"></i></h4>
                 </div>
+                
+                
                 <c:forEach items="${kk}" var="e">
                  <form action="setprofile" method="POST">
                 <div class="row mt-3">
@@ -65,11 +69,98 @@
                 <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="submit">Save Profile</button></div>
                 </form>
                 </c:forEach>
+                
+                
             </div>
         </div>
         
     </div>
 </div>
+
+  <h4 style="text-align:center;">My Activities &nbsp;<i class="fa-solid fa-users-gear" style="font-size:30px;"></i></h4>
+  
+  <hr style="border: 5px solid green;">
+  <br>
+<br>
+<br>
+   <h4> Product Enquiries <i class="fa-solid fa-cart-shopping" style="font-size:30px;"></i></h4>
+<table>
+
+    <thead>
+        <tr>
+            <th scope="col">Farmer Name</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Type</th>
+            <th scope="col">Product Price</th>
+            <th scope="col">Date of Submission</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        <c:forEach items="${k}" var="e">
+            <tr>
+                <td data-label="Farmer Name">${e.fname}</td>
+                <td data-label="Product">${e.fproduct}</td>
+                <td data-label="Type">${e.ftype}</td>
+                <td data-label="Price">${e.fprice}</td>
+                <td data-label="Date">${e.dateout}</td>
+              
+            </tr>
+        </c:forEach>
+    </tbody>
+</table>
+
+<br>
+<br>
+<br>
+
+
+ <hr style="border: 1px solid black;">
+ <br>
+<br>
+
+<h4> Soil Analysis <i class="fa-solid fa-magnifying-glass-chart"style="font-size:30px;"></i></h4>
+<table>
+
+    <thead>
+        <tr>
+            <th scope="col">Farmer Name</th>
+            <th scope="col">Soil Type</th>
+            <th scope="col">Texture</th>
+            <th scope="col">Fertilizers Used</th>
+            <th scope="col">Date</th>
+            <th scope="col"></th>
+            
+            
+        </tr>
+    </thead>
+    <tbody>
+        <c:forEach items="${kkk}" var="e">
+            <tr>
+                <td data-label="Farmer Name">${e.sname}</td>
+                <td data-label="Soil Type">${e.stype}</td>
+                <td data-label="Texture">${e.stexture}</td>
+                <td data-label="Fertilizers Used">${e.sfertilizer}</td>
+                <td data-label="Date of Submission">${e.sdate}</td>
+                <td data-label="Download PDF">
+                
+                  <form action="getpdf" method="post">
+                 
+                 <input type="text" value="<%out.println(s1.getAttribute("email"));%>" name="email" style="display:none;">
+                
+               
+                <button type="submit" style="color:#1a8cff;">Download PDF &nbsp;<i class="fa-solid fa-file-pdf"></i></button></form>
+                
+                
+                </td>
+                
+            </tr>
+        </c:forEach>
+    </tbody>
+</table>
+
+
+
 
 
 <style>

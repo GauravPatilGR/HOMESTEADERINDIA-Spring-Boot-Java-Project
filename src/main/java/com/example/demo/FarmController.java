@@ -2,18 +2,18 @@ package com.example.demo;
 
 
 
-import java.sql.Date;
+
 import java.util.List;
-import java.util.Map;
+
 
 import javax.servlet.http.HttpSession;
 
-import org.apache.catalina.connector.Response;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.format.annotation.DateTimeFormat;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.GetMapping;
+
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,9 +24,9 @@ import com.example.demo.Admin.serviceadmin;
 import com.example.demo.Agroagency.agroEntity;
 import com.example.demo.Agroagency.product;
 import com.example.demo.Agroagency.serviceagro;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators.StringIdGenerator;
 
-import net.bytebuddy.matcher.LatentMatcher.ForSelfDeclaredMethod;
+
+
 
 @Controller
 public class FarmController {
@@ -159,16 +159,31 @@ public class FarmController {
 		 
 	 }
 	 
-	      
+	         
 	 }
+	 
+	                                   //Profile of Farmer
 	
 	//Mapping for Farmer Profile
 	@RequestMapping("/searchname")
-	public String profilefarmer(@RequestParam("email") String email,ModelMap mm)
+	public String profilefarmer(@RequestParam("email") String email,ModelMap mm,HttpSession h3)
 	{
 		   List<farmerEntity> l =fs.findfarmerbyemail(email);
 		   
+		   List<enquiry_Entity> l2 = fs.findenqiryfarmer(email);
+		   
+		   List<soilanalysis_Enitty> l3 =fs.findsoilfarmer(email);
+		   
+		  
+		  
+		   
+		   
+		
+		   mm.addAttribute("k",l2);
+		   
 		   mm.addAttribute("kk",l);
+		   
+		   mm.addAttribute("kkk",l3);
 		
 		return "profilefarmer";
 		
@@ -181,6 +196,7 @@ public class FarmController {
 		
 		return "profilefarmer";
 	}
+	
 	
 	//Update Farmer Profile
 	@PostMapping("/setprofile")
@@ -203,6 +219,21 @@ public class FarmController {
 		
 		return "home";
 	}
+	
+	
+	@RequestMapping("/getpdf")
+	public String getsoildata(@RequestParam("email") String email,ModelMap mm)
+	{
+		
+		 List<soilanalysis_Enitty> l4 =fs.findsoilfarmer(email);
+		 
+		 mm.addAttribute("k",l4);
+		
+		
+		return "pdfget";
+	}
+	
+	
 	
 	
 	

@@ -64,9 +64,13 @@
                                 <label class="form-control-label px-3">Farmer Name<span class="text-danger"> *</span></label>
                                 <input  class="temp"  type="text" id="email" name="fname" value="<%out.println(s2.getAttribute("name"));%>" readonly>
                             </div>
-                            <div class="form-group col-sm-6 flex-column d-flex">
+                            <div class="form-group col-sm-3 flex-column d-flex">
                                 <label class="form-control-label px-3">Contact Number<span class="text-danger"> *</span></label>
                                 <input class="temp"  type="text" id="mob" name="fnumber" value="<%out.println(s2.getAttribute("mobile"));%>" readonly>
+                            </div>
+                             <div class="form-group col-sm-3 flex-column d-flex">
+                                <label class="form-control-label px-3">Email<span class="text-danger"> *</span></label>
+                                <input class="temp"  type="text" id="mob" name="femail" value="<%out.println(s2.getAttribute("email"));%>" readonly>
                             </div>
                         </div>
                          <input type="date" id="myDate" name="dateout" value="" />

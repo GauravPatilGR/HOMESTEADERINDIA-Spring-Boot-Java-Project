@@ -203,6 +203,20 @@ public class farmDao implements farmService {
 	}
 
 
+	@Override
+	public List<enquiry_Entity> findenqiryfarmer(String email) {
+		
+		return re.findByFemailLike(email);
+	}
+
+
+	@Override
+	public List<soilanalysis_Enitty> findsoilfarmer(String email) {
+		
+		return rsa.findBySemailLike(email);
+	}
+
+
 	
 
 

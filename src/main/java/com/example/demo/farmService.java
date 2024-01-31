@@ -61,6 +61,13 @@ public interface farmService {
     //Show Profile
     List<farmerEntity> findfarmerbyemail(String email);
     
+    //Show Enqiry to Farmer
+    List<enquiry_Entity> findenqiryfarmer(String email);
+    
+    //Show Soil Analysis Report to Farmer
+    List<soilanalysis_Enitty> findsoilfarmer(String email);
+    
+    
     //Show Farmers
     List<farmerEntity> showallfarmer();
   	

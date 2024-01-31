@@ -26,6 +26,10 @@ public class enquiry_Entity {
 	
 	private String fnumber;
 	
+	
+
+	private String femail;
+	
 	private String fstate;
 	
 	private String fcity;
@@ -34,6 +38,14 @@ public class enquiry_Entity {
 	
 	private String fprice;
 	
+	
+	public String getFemail() {
+		return femail;
+	}
+
+	public void setFemail(String femail) {
+		this.femail = femail;
+	}
 	
 	public String getFprice() {
 		return fprice;

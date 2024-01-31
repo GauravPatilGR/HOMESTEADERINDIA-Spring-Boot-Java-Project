@@ -79,7 +79,7 @@
                  <input type="text" value="<%out.println(s1.getAttribute("email"));%>" name="email" style="display:none;">
                 
                
-                <button type="submit" class="custombutton" style=" margin-right: 700px; margin-top:10px; border:none;background-color:#f93; color:white; "><i class="fa-solid fa-user"></i><%out.println(s1.getAttribute("name"));%></button></form>
+                <button type="submit" class="custombutton" style=" margin-right: 700px; margin-top:10px; border:none;background-color:#f93; color:white; "><i class="fa-solid fa-id-card"></i>&nbsp; &nbsp;<%out.println(s1.getAttribute("name"));%></button></form>
                 <a href="home" class="nav-item nav-link "><i class="fa-solid fa-house"></i>&nbsp;Home</a>
                 <a href="aboutl" class="nav-item nav-link"><i class="fa-solid fa-globe"></i>&nbsp;About</a>
                 <a href="service" class="nav-item nav-link"><i class="fa-solid fa-building"></i>&nbsp;Services</a>
