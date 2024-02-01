@@ -217,6 +217,13 @@ public class farmDao implements farmService {
 	}
 
 
+	@Override
+	public List<Training_Farmer> findfarmertraining(String email) {
+		
+		return rp.findByFemailLike(email);
+	}
+
+
 	
 
 

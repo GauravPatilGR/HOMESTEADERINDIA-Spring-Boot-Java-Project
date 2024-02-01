@@ -100,7 +100,7 @@ public class FarmController {
 	    h1.setAttribute("cnt", cnt);
 		fs.Register(c1);
 		
-		
+	
 		return "login";
 		
 		
@@ -174,7 +174,7 @@ public class FarmController {
 		   
 		   List<soilanalysis_Enitty> l3 =fs.findsoilfarmer(email);
 		   
-		  
+		   List<Training_Farmer> l4 =fs.findfarmertraining(email);
 		  
 		   
 		   
@@ -184,6 +184,8 @@ public class FarmController {
 		   mm.addAttribute("kk",l);
 		   
 		   mm.addAttribute("kkk",l3);
+		   
+		   mm.addAttribute("kkkk",l4);
 		
 		return "profilefarmer";
 		

@@ -67,6 +67,9 @@ public interface farmService {
     //Show Soil Analysis Report to Farmer
     List<soilanalysis_Enitty> findsoilfarmer(String email);
     
+    //Show Farmer Training to Farmer
+    List<Training_Farmer> findfarmertraining(String email);
+    
     
     //Show Farmers
     List<farmerEntity> showallfarmer();

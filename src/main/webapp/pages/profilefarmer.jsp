@@ -160,6 +160,48 @@
 </table>
 
 
+<br>
+<br>
+<br>
+ <hr style="border: 1px solid black;">
+ 
+
+<h4>Farmer Training <i class="fa fa-tractor" style="font-size:30px;"></i></h4>
+<table>
+
+    <thead>
+        <tr>
+            <th scope="col">Farmer Name</th>
+            <th scope="col">Contact Number</th>
+            <th scope="col">Training Type</th>
+            <th scope="col">Location</th>
+            <th scope="col">Date</th>
+            
+          
+            
+            
+        </tr>
+    </thead>
+    <tbody>
+        <c:forEach items="${kkkk}" var="e">
+            <tr>
+                <td data-label="Farmer Name">${e.fname}</td>
+                <td data-label="Farmer Name">${e.fmobile}</td>
+                <td data-label="Farmer Name">${e.ftraining}</td>
+                <td data-label="Farmer Name">${e.flocation}</td>
+                <td data-label="Farmer Name">${e.fdate}</td>
+              
+                
+                
+                
+               
+                
+            </tr>
+        </c:forEach>
+    </tbody>
+</table>
+
+
 
 
 

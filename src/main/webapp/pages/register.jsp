@@ -7,6 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 
   
     <script src="https://kit.fontawesome.com/afcf20c6bc.js" crossorigin="anonymous"></script>
@@ -189,6 +190,8 @@
     </div>
 
     <!-- Validation start -->
+    
+   
 
  <script>
     function validateForm() {

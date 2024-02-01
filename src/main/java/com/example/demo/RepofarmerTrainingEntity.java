@@ -14,5 +14,6 @@ public interface RepofarmerTrainingEntity extends JpaRepository<Training_Farmer,
 	
 	List<Training_Farmer> findByFdateBetween(java.util.Date startdate,java.util.Date enddate);
 	
+	List<Training_Farmer> findByFemailLike(String email);
 
 }
