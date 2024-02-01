@@ -88,7 +88,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
         <a href="index.html" class="navbar-brand d-flex d-lg-none">
-            <h1 class="m-0 display-4 text-secondary"><span class="text-white">Homesteadet</span>India</h1>
+            <h1 class="m-0 display-4 text-secondary"><span class="text-white">Homesteader</span>India</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -124,39 +124,39 @@
                        
                        <form id="registrationForm" onsubmit="return validateForm()" action="regfarmer" method="post">  
     <div class="row g-3">
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12">
             <input type="text" class="form-control bg-light border-0 px-4" placeholder="Enter Your Name" style="height: 55px;" id="name"  name="name" pattern="[A-Za-z ]+" title="Please enter only letters and spaces" required>
             <span id="nameError" class="error"></span>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12">
             <input type="email" class="form-control bg-light border-0 px-4" placeholder="Enter Your Email" style="height: 55px;" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Please enter a valid email address" required>
             <span id="emailError" class="error"></span>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12">
             <input type="password" class="form-control bg-light border-0 px-4" placeholder="Enter Your Password" style="height: 55px;" id="password" name="password" pattern=".{6,}" title="Password must be at least 6 characters long" required>
             <span id="passwordError" class="error"></span>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12">
             <input type="text" class="form-control bg-light border-0 px-4" placeholder="Enter Your State" style="height: 55px;" id="state" name="state" pattern="[A-Za-z ]+" title="Please enter only letters and spaces" required>
             <span id="stateError" class="error"></span>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12">
             <input type="text" class="form-control bg-light border-0 px-4" placeholder="Enter Your City" style="height: 55px;" id="city" name="city" pattern="[A-Za-z ]+" title="Please enter only letters and spaces" required>
             <span id="cityError" class="error"></span>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12">
             <input type="text" class="form-control bg-light border-0 px-4" placeholder="Enter Your Town" style="height: 55px;" id="town" name="town" pattern="[A-Za-z ]+" title="Please enter only letters and spaces" required>
             <span id="townError" class="error"></span>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12">
             <input type="text" class="form-control bg-light border-0 px-4" placeholder="Enter Your Village" style="height: 55px;" id="village" name="village" pattern="[A-Za-z ]+" title="Please enter only letters and spaces" required>
             <span id="villageError" class="error"></span>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12">
             <input type="text" class="form-control bg-light border-0 px-4" placeholder="Enter Your Mobile Number" style="height: 55px;" id="mobile" name="mobile" pattern="[0-9]{10}" title="Please enter a valid 10-digit mobile number" required>
             <span id="mobileError" class="error"></span>
         </div>
-        <div class="col-12">
+        <div class="col-lg-6 col-md-12">
             <label for="soilType" style="color: white;">Choose The Type of Soil*</label>
             <select name="soiltype" id="dropdown" style="height: 50px;" required>
                 <option value="">Select Soil Type</option>
@@ -180,6 +180,7 @@
         <a href="login" style="color: blue;">Already have an account?</a>
     </div>
 </form>
+                       
                        
                    
                     </div>

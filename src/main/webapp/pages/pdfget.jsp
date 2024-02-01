@@ -666,7 +666,7 @@ footer a:first-child{
 
 <a  href="javascript:void(0)" class="btn-download" style="padding:15px; margin:20px;background-color:#ef233c;border-radius:34px;margin-top:80px; color:#fff;"">Download PDF <i class="fa-solid fa-file-pdf"></i>  </a>
 
-<a  href="home"  style="padding:15px; margin:20px;background-color:green;border-radius:34px;margin-top:80px; color:#fff;">Back to Home <i class="fa-solid fa-house"></i></a>
+<a  href="home"  style="padding:15px; margin:20px;background-color:green;border-radius:34px;margin-top:80px; color:#fff;">Home</a>
 
 
 <script src="js/jspdf.debug.js"></script>

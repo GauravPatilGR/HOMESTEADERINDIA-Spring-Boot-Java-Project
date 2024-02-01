@@ -67,7 +67,7 @@
                                 <a class="text-white mb-2" href="service"><i class="bi bi-arrow-right text-white me-2"></i>Our Services</a>
                                 <a class="text-white mb-2" href="product"><i class="bi bi-arrow-right text-white me-2"></i>Our Product</a>
                                 <a class="text-white mb-2" href="#team"><i class="bi bi-arrow-right text-white me-2"></i>Meet The Team</a>
-                                <a class="text-white mb-2" href="blog"><i class="bi bi-arrow-right text-white me-2"></i>Latest Blog</a>
+                                <a class="text-white mb-2" href="home"><i class="bi bi-arrow-right text-white me-2"></i>Latest Blog</a>
                                 <a class="text-white" href="contact"><i class="bi bi-arrow-right text-white me-2"></i>Contact Us</a>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
     </div>
     <div class="container-fluid bg-dark text-white py-4">
         <div class="container text-center">
-            <p class="mb-0">&copy; <a class="text-secondary fw-bold" href="#">HomeSteaderIndia.Com</a>. All Rights Reserved. Designed And Developed by <a class="text-secondary fw-bold" href=>Gaurav Patil</a></p>
+            <p class="mb-0">&copy; <a class="text-secondary fw-bold" href="#">HomeSteaderIndia.Com</a>. All Rights Reserved. Designed And Developed by <a class="text-secondary fw-bold" href="https://www.linkedin.com/in/gauravpatil13/">Gaurav Patil</a></p>
         </div>
     </div>
     <!-- Footer End -->

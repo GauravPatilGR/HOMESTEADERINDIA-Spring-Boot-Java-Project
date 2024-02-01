@@ -10,4 +10,8 @@ public interface Reposoilanalysis extends JpaRepository<soilanalysis_Enitty , In
 	List<soilanalysis_Enitty> findBySdateBetween(java.util.Date startdate,java.util.Date enddate);
 	
 	List<soilanalysis_Enitty> findBySemailLike(String email);
+	
+	soilanalysis_Enitty findBySemail(String email);
+	
+	
 }

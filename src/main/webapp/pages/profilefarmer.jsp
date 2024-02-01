@@ -129,6 +129,8 @@
             <th scope="col">Texture</th>
             <th scope="col">Fertilizers Used</th>
             <th scope="col">Date</th>
+            <th scope="col">Action</th>
+            
             <th scope="col"></th>
             
             
@@ -142,6 +144,7 @@
                 <td data-label="Texture">${e.stexture}</td>
                 <td data-label="Fertilizers Used">${e.sfertilizer}</td>
                 <td data-label="Date of Submission">${e.sdate}</td>
+                <td data-label="Withdraw"><a href="withdraw/${e.id}">Withdraw Request</a></td>
                 <td data-label="Download PDF">
                 
                   <form action="getpdf" method="post">

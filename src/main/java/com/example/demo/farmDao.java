@@ -224,6 +224,24 @@ public class farmDao implements farmService {
 	}
 
 
+	@Override
+	public void withdrawrequest(int id) {
+		
+		rsa.deleteById(id);
+		
+	}
+
+
+	@Override
+	public soilanalysis_Enitty checksoildublicate(String email) {
+		
+		return rsa.findBySemail(email);
+	}
+
+
+	
+
+
 	
 
 

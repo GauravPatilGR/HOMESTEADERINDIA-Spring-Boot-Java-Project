@@ -450,7 +450,7 @@
     <!-- Team End -->
 
     <!-- Blog Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="#bloghome">
         <div class="container">
             <div class="mx-auto text-center mb-5" style="max-width: 500px;">
                 <h6 class="text-primary text-uppercase">Our Blog</h6>

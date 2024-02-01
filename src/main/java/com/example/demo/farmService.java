@@ -70,6 +70,11 @@ public interface farmService {
     //Show Farmer Training to Farmer
     List<Training_Farmer> findfarmertraining(String email);
     
+    //Soil analysis check
+    soilanalysis_Enitty checksoildublicate(String email);
+    
+    //for Withdraw Soil analysis Request
+    public void withdrawrequest(int id);
     
     //Show Farmers
     List<farmerEntity> showallfarmer();

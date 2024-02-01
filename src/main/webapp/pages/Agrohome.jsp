@@ -211,44 +211,44 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex">
                         <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-star fs-4 text-white"></i>
+                            <i class="fa-solid fa-tractor text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-white">Our Experience</h5>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
+                            <h5 class="text-white">Registered Farmers</h5>
+                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">1500</h1>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex">
                         <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-users fs-4 text-white"></i>
+                            <i class="fa-solid fa-building-wheat text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-white">Farm Specialist</h5>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
+                            <h5 class="text-white">Our Agroagency</h5>
+                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">300</h1>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex">
                         <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-check fs-4 text-white"></i>
+                            <i class="fa-solid fa-wheat-awn text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-white">Complete Project</h5>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
+                            <h5 class="text-white">Trained Farmers</h5>
+                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">400</h1>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex">
                         <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                            <i class="fa fa-mug-hot fs-4 text-white"></i>
+                            <i class="fa-solid fa-cart-shopping text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-white">Happy Clients</h5>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
+                            <h5 class="text-white">Farming Products</h5>
+                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">600</h1>
                         </div>
                     </div>
                 </div>
@@ -256,9 +256,9 @@
         </div>
     </div>
     <!-- Facts End -->
-    
 
     
+
 
 
    

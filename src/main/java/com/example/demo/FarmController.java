@@ -15,6 +15,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -164,7 +165,9 @@ public class FarmController {
 	 
 	                                   //Profile of Farmer
 	
-	//Mapping for Farmer Profile
+	
+	
+	//Mapping for Farmer Profile shwoing all activities by farmers
 	@RequestMapping("/searchname")
 	public String profilefarmer(@RequestParam("email") String email,ModelMap mm,HttpSession h3)
 	{
@@ -222,7 +225,7 @@ public class FarmController {
 		return "home";
 	}
 	
-	
+	//Generate Soil analysis PDF Anytime
 	@RequestMapping("/getpdf")
 	public String getsoildata(@RequestParam("email") String email,ModelMap mm)
 	{
@@ -234,6 +237,22 @@ public class FarmController {
 		
 		return "pdfget";
 	}
+	
+	//Withdraw Soil analysis Request By Farmer
+	@RequestMapping("/withdraw/{id}")
+	public String removesoilanalysisrequest(@PathVariable int id)
+	{
+		
+		fs.withdrawrequest(id);
+		
+		return "redirect:/home";
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -445,8 +464,17 @@ public class FarmController {
 		                                          //Soil Analysis
 		//Save Soil Response
 		@PostMapping("/savesoilresponse")
-		public String savesoilanalysisresponse(@ModelAttribute("c6") soilanalysis_Enitty c6,HttpSession h3)
+		public String savesoilanalysisresponse(@ModelAttribute("c6") soilanalysis_Enitty c6,@RequestParam("semail") String semail,HttpSession h3)
 		{
+			
+			
+		soilanalysis_Enitty soil = fs.checksoildublicate(semail);
+		
+		if(soil==null)
+		{
+		  
+		
+			
 			fs.soilsave(c6);
 			
 			h3.setAttribute("sid", c6.getId());
@@ -465,20 +493,24 @@ public class FarmController {
 			h3.setAttribute("sdate", c6.getSdate());
 			h3.setAttribute("scomments", c6.getScomments());
 			
+			return "pdfgenerate";
+		
+		}
 			
-			
-			
-			
-			
-			
-			
-			
-			
+		
+		return "soilaction";
 		
 			
 			
 			
-			return "pdfgenerate";
+			
+		}
+		
+		@RequestMapping("/soilaction")
+		public String soilrequest()
+		{
+			
+			return "soilaction";
 		}
 		
 		//Redirect PDF page

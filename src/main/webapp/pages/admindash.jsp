@@ -170,23 +170,6 @@
 					<i class="fa-solid fa-people-group"></i>
 				</div> 
 
-				<div class="box box2"> 
-					<div class="text"> 
-						<h2 class="topic-heading">150</h2> 
-						<h2 class="topic">Total Agroagency</h2> 
-					</div> 
-
-					<i class="fa-solid fa-building-circle-arrow-right"></i>
-				</div> 
-
-				<div class="box box3"> 
-					<div class="text"> 
-						<h2 class="topic-heading">320</h2> 
-						<h2 class="topic">Listed Product</h2> 
-					</div> 
-
-					<i class="fa-solid fa-cart-shopping"></i>
-				</div> 
               
                 <a href="registersubadmin">
 				<div class="box box4" style="background-color:#fb8500;"> 

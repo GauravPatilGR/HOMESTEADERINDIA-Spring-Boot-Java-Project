@@ -17,8 +17,10 @@
     <div class="container-fluid px-1 py-5 mx-auto">
         <div class="row d-flex justify-content-center">
             <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+         
                 <h3>Soil Analysis Form </h3>
-                <p class="blue-text " style="color:green;"><span class="text-danger">*</span >Fill Your Details Correctly it Will help Us to<br>Analysis Your Soil</p>
+                <p class="blue-text " style="color:green;"><span class="text-danger">*</span >Fill Your Details Correctly it Will help Us to<br>Analysis Your Soil
+                <br><span class="text-danger">Note-</span >You can Request one Soil Analysis Request from Each Acccount</p>
                 <div class="card">
                    
                     <form class="form-card" action="savesoilresponse" method="post" onsubmit="return validateForm()">
