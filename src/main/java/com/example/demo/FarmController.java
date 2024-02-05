@@ -368,7 +368,7 @@ public class FarmController {
 			 
 			fs.submitstudentrs(c3);
 			 
-			return "redirect:/";
+			return "redirect:/home";
 	 }
 		
 		@RequestMapping("/productsearch")
