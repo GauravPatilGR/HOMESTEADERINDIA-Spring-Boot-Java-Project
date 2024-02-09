@@ -119,14 +119,6 @@ Install Project Into Your Device
 ![App Screenshot](https://github.com/GauravPatilGR/HOMESTEADERINDIA-Spring-Boot-Java-Project/assets/123281827/5f2096f4-7631-47ec-8272-2d04a9e14bd7)
 
 
-## Features
-
-- Live Prices of Products and Fertilizers
-- Live Weather Service for Every City
-- Quick Inquiry in 1 second
-- Free Platform for Farmers
-- Easy DataCollection 
-- Generate PDF or Excel File Report
 
 
 
@@ -134,18 +126,7 @@ Install Project Into Your Device
 
 
 
-## Demo of Project
-![App Screenshot](https://github.com/GauravPatilGR/HOMESTEADERINDIA-Spring-Boot-Java-Project/assets/123281827/5f2096f4-7631-47ec-8272-2d04a9e14bd7)
 
-
-## Features
-
-- Live Prices of Products and Fertilizers
-- Live Weather Service for Every City
-- Quick Inquiry in 1 second
-- Free Platform for Farmers
-- Easy DataCollection 
-- Generate PDF or Excel File Report
 
 
 
