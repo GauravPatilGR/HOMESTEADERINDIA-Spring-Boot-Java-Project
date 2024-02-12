@@ -42,7 +42,7 @@
                 </div>
                 <div class="row mt-3">
                     <div class="col-md-12"><label class="labels" style="font-size:15px;">Mobile Number:</label><input type="text" class="form-control"  name="mobile"  placeholder="enter phone number" value="${e.mobile}" style="color:black;"></div>
-                    <div class="col-md-12"><label class="labels" style="font-size:15px;">Email Address:</label><input type="text" class="form-control" placeholder="enter Email"  name="email"  value="${e.email}" style="color:black;"></div>
+                    <div class="col-md-12"><label class="labels" style="font-size:15px;">Email Address:</label><input type="text" class="form-control" placeholder="enter Email"  name="email"  value="${e.email}" style="color:black;" readonly></div>
                     <div class="col-md-12"><label class="labels" style="font-size:15px;">State:</label><input type="text" class="form-control" placeholder="State"  name="state"  value="${e.state}" style="color:black;"></div>
                     <div class="col-md-12"><label class="labels" style="font-size:15px;">District:</label><input type="text" class="form-control" placeholder="District"  name="city"  value="${e.city}" style="color:black;"></div>
                     <div class="col-md-12"><label class="labels" style="font-size:15px;">Town:</label><input type="text" class="form-control" placeholder="Town"  name="town"  value="${e.town}"  style="color:black;"></div>

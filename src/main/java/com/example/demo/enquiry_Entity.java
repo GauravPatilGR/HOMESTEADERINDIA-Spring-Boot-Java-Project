@@ -22,6 +22,8 @@ public class enquiry_Entity {
 	
 	private String ftype;
 	
+	
+	
     private String fname;
 	
 	private String fnumber;

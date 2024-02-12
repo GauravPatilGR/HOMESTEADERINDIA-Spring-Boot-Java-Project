@@ -17,7 +17,7 @@ public class CravitaProjectHomeSteaderApplication extends SpringBootServletIniti
 	return application.sources(CravitaProjectHomeSteaderApplication.class);  
 	}  
 	
-	
+  
 
 	public static void main(String[] args) {
 		SpringApplication.run(CravitaProjectHomeSteaderApplication.class, args);
