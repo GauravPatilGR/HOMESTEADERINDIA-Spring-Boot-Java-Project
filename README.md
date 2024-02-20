@@ -1,11 +1,11 @@
 # HOMESTEADERINDIA  🌱
 
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-2.5.4-green)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-2.7.1-green)
 ![HTML](https://img.shields.io/badge/HTML-5-red)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-4.6-purple)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.0-purple)
 ![Hibernate](https://img.shields.io/badge/Hibernate-JPA-yellreen)
 ![API](https://img.shields.io/badge/API-OpenWeatherMap-orange)
 
