@@ -19,6 +19,8 @@ public class AdminDao implements serviceadmin {
 	//Subadmin
 	@Autowired
 	Reposubadmin rs;
+	
+	
 
 	                                        //Blog Start
     //Blog Save
@@ -84,6 +86,9 @@ public class AdminDao implements serviceadmin {
 		
 	}
 
+	
+
+	
 	
 
 	

@@ -32,5 +32,8 @@ public interface serviceadmin {
 	 //Remove Acces of Subadmin
 	 public void removesubadminaccress(int id);
 	 
+	 
+	
+	 
 	
 }

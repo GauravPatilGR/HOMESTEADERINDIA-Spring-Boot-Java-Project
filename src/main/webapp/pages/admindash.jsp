@@ -161,9 +161,10 @@
 <%HttpSession s2=request.getSession(false);%>
 			<div class="box-container"> 
 
+                
 				<div class="box box1"> 
 					<div class="text"> 
-						<h2 class="topic-heading"><%out.println(s2.getAttribute("cnt"));%></h2> 
+						<h2 class="topic-heading">${count}</h2> 
 						<h2 class="topic">Total Farmers</h2> 
 					</div> 
 

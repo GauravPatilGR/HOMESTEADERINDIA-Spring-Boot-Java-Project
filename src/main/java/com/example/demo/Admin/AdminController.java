@@ -13,6 +13,7 @@ import org.apache.naming.java.javaURLContextFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -60,7 +61,7 @@ public class AdminController {
 	
 	//Mapping for Admin Login 
 	@PostMapping("/adminmapping")
-	public String Adminlogincheck(@RequestParam("name") String name,@RequestParam("password") String password,HttpSession h1)
+	public String Adminlogincheck(@RequestParam("name") String name,@RequestParam("password") String password,HttpSession h1,ModelMap mm)
 	{
 		  //Subadmin Check
 	        subadmin_Entity sa= saa.checksubadmin(name, password);
@@ -70,8 +71,12 @@ public class AdminController {
 			  
 			    h1.setAttribute("username",name);
 			    
+			    int totalApproveFarmer = (int) fs.countApprovedFarmer();
+		        System.out.println("Total approved farmers: " + totalApproveFarmer);
+		        mm.addAttribute("count",totalApproveFarmer);
+			    
 			  
-		    	return "redirect:/admindash";
+		    	return "admindash";
 		    } 
 		    
 		    else {

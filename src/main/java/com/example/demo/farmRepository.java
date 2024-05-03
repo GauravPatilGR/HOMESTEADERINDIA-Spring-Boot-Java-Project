@@ -10,7 +10,7 @@ import com.example.demo.Agroagency.product;
 @Repository
 
 //Farmer Repository For Hibernate
-public interface farmRepository  extends JpaRepository<farmerEntity, Integer>
+public interface farmRepository  extends JpaRepository<farmerEntity, Long>
 {
 	
 	//Login Farmer

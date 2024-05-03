@@ -239,6 +239,12 @@ public class farmDao implements farmService {
 	}
 
 
+	@Override
+    public long countApprovedFarmer() {
+        return fd.count();
+    }
+
+
 	
 
 

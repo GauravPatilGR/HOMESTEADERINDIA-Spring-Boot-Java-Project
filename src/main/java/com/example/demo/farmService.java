@@ -78,6 +78,10 @@ public interface farmService {
     
     //Show Farmers
     List<farmerEntity> showallfarmer();
+    
+    
+    public long countApprovedFarmer();
+   
   	
    
 	
