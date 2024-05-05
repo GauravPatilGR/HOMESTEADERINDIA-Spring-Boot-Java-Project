@@ -71,12 +71,25 @@ public class AdminController {
 			  
 			    h1.setAttribute("username",name);
 			    
+			
+			    
+			    //for farmer count
 			    int totalApproveFarmer = (int) fs.countApprovedFarmer();
 		        System.out.println("Total approved farmers: " + totalApproveFarmer);
 		        mm.addAttribute("count",totalApproveFarmer);
 			    
+		        //for product count
+		        int totalproduct=  (int) this.sa.countproduct();
+		        System.out.println("Total product ="+totalproduct);
+		        mm.addAttribute("countproduct",totalproduct);
+		        
+		        //for agroagecny
+		        int totalagroagency= (int) this.sa.countagroagency();
+		        System.out.println("Total Agroagency="+totalagroagency);
+		        mm.addAttribute("countagro",totalagroagency);
+		        
 			  
-		    	return "admindash";
+		    	return "redirect:/admindash";
 		    } 
 		    
 		    else {
@@ -106,7 +119,22 @@ public class AdminController {
 		
 		List<contact_Entity> ca=fs.DisplayContactAdmin();
 		
-		mm.addAttribute("kk",ca);
+		mm.addAttribute("kk",ca);  //for farmer count
+	    int totalApproveFarmer = (int) fs.countApprovedFarmer();
+        System.out.println("Total approved farmers: " + totalApproveFarmer);
+        mm.addAttribute("count",totalApproveFarmer);
+	    
+        //for product count
+        int totalproduct=  (int) this.sa.countproduct();
+        System.out.println("Total product ="+totalproduct);
+        mm.addAttribute("countproduct",totalproduct);
+        
+        //for agroagecny
+        int totalagroagency= (int) this.sa.countagroagency();
+        System.out.println("Total Agroagency="+totalagroagency);
+        mm.addAttribute("countagro",totalagroagency);
+		
+		
 		
 		return "admindash";
 	}

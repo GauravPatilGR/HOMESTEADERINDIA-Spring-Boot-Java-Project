@@ -23,6 +23,8 @@ public interface RepositoryAgro extends JpaRepository<agroEntity, Integer>
 	
 	 //Serach
 	 List<agroEntity> findByNameLike(String name);
+	 
+	 int countByStatus(String status);
 	
 	
 	

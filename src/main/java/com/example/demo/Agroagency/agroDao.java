@@ -146,6 +146,20 @@ public class agroDao implements serviceagro {
 	}
 
 
+	@Override
+	public long countproduct() {
+		
+		return rp.count();
+	}
+
+
+	@Override
+	public long countagroagency() {
+		
+		return ra.countByStatus("Approve");
+	}
+
+
 	
 
 

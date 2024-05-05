@@ -161,15 +161,37 @@
 <%HttpSession s2=request.getSession(false);%>
 			<div class="box-container"> 
 
-                
+                <a href="totalfarmeradmin">
 				<div class="box box1"> 
 					<div class="text"> 
 						<h2 class="topic-heading">${count}</h2> 
-						<h2 class="topic">Total Farmers</h2> 
+						<h2 class="topic">Total Registered  Farmers</h2> 
 					</div> 
 
 					<i class="fa-solid fa-people-group"></i>
-				</div> 
+				</div> </a>
+				
+				  <a href="editproductadmin">
+				<div class="box box1" style="background-color:#fb8500;"> 
+					<div class="text"> 
+						<h2 class="topic-heading">${countproduct}</h2> 
+						<h2 class="topic">Total Listed Product</h2> 
+					</div> 
+
+					<i class="fa-solid fa-cart-shopping"></i>
+				</div> </a>
+				
+				
+				<a href="agropage">
+				<div class="box box1"> 
+					<div class="text"> 
+						<h2 class="topic-heading">${countagro}</h2> 
+						<h2 class="topic">Total Registered Agroagency</h2> 
+					</div> 
+					
+					<i class="fa-solid fa-building-wheat"></i>
+
+				</div></a> 
 
               
                 <a href="registersubadmin">
@@ -279,6 +301,10 @@
         }
         td{
           color:black;
+        }
+        
+        i{
+         font-size:25px;
         }
         
          a{

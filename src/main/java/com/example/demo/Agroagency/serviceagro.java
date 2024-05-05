@@ -53,6 +53,10 @@ public interface serviceagro
 	//Update product
 	List<product> updateproduct(String name);
 	
+	public long countproduct();
+	
+	public long countagroagency();
+	
 
 	
 	
