@@ -51,10 +51,14 @@ Admin
 - Check Feedback from farmers.
 - Check reports – daily, weekly, monthly.
 - Download the report in an excel sheet.
-Agro Agencies:-
+  
+Agro Agencies
+
 - Login, Register.
 - Check training requests from farmers and agricultural students.
-Farmer:-
+  
+Farmer
+
 - Login, and register.
 - Quick inquiry related to crops, fertilizers, vegetables, Seeds, and Fruits.
 - Search crops, fertilizers, vegetables, Seeds, and Fruits.
